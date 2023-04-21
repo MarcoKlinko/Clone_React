@@ -42,7 +42,7 @@ export default function SignIn() {
           <img src="https://images.unsplash.com/photo-1503792070985-b4147d061915?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1123&q=80" alt="key" className='w-full rounded-2xl' />
         </div>
         <div className='w-full md:w-[60%] lg:w-[35%] lg:ml-20'>
-          <form onSubmit={onSubmitS}>
+          <form onSubmit={onSubmit}>
 
             <input type="email" id='email' 
             value={email} onChange={onChange} 
